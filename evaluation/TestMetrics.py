@@ -5,7 +5,7 @@ from surprise.model_selection import train_test_split
 from surprise.model_selection import LeaveOneOut
 from RecommenderMetrics import RecommenderMetrics
 
-ml = MovieLens()
+ml = MovieLens()  
 
 print("Loading movie ratings...")
 data = ml.loadMovieLensLatestSmall()
